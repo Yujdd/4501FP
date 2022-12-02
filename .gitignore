@@ -1,0 +1,8 @@
+# General
+.DS_Store
+
+# Jupyter
+*.db
+*.parquet
+*.zip
+*.csv
