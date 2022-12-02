@@ -1,0 +1,13 @@
+# Python package that need to pip install
+
+math
+datetime
+keplergl
+bs4
+matplotlib
+pandas
+geopandas
+requests
+sqlalchemy
+re
+numpy
