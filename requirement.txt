@@ -11,3 +11,4 @@ requests
 sqlalchemy
 re
 numpy
+itertools
