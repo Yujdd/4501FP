@@ -1,15 +1,13 @@
  WITH hired_trips AS(
         SELECT
-            distance,
-            pickup_datetime
+            distance
         FROM taxi_trips
         WHERE pickup_datetime BETWEEN '2013-07-01 00:00:00' AND '2013-07-31 24:00:00'
         
-        UNION
+        UNION ALL
         
         SELECT 
-            distance,
-            pickup_datetime
+            distance
         FROM uber_trips
         
         WHERE pickup_datetime BETWEEN '2013-07-01 00:00:00' AND '2013-07-31 24:00:00')

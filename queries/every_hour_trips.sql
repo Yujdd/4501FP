@@ -7,7 +7,7 @@
         WHERE pickup_datetime BETWEEN '2014-01-01 00:00:00' AND '2014-12-31 24:00:00'
         GROUP BY DATE
         
-        UNION
+        UNION ALL
         
         SELECT 
             DATE(pickup_datetime) AS DATE,

@@ -3,16 +3,16 @@
             distance,
             pickup_datetime
         FROM taxi_trips
-        WHERE pickup_datetime BETWEEN '2009-01-01 00:00:00' AND '2019-12-31 24:00:00'
+        WHERE pickup_datetime BETWEEN '2009-01-01 00:00:00' AND '2009-12-31 24:00:00'
         
-        UNION
+        UNION ALL
         
         SELECT 
             distance,
             pickup_datetime
         FROM uber_trips
         
-        WHERE pickup_datetime BETWEEN '2009-01-01 00:00:00' AND '2019-12-31 24:00:00')
+        WHERE pickup_datetime BETWEEN '2009-01-01 00:00:00' AND '209-12-31 24:00:00')
         
         
         SELECT DATE(pickup_datetime) AS date, 
